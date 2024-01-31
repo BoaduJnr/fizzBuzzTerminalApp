@@ -15,15 +15,15 @@ public class Main {
                 System.out.println("The Fizz, Buzz and FizzBuzz numbers are: \n");
             while (playerNumber >= 0) {
 
-                if (playerNumber % 3 == 0) {
-                    System.out.println("Fizz \t");
-
-                } else if (playerNumber % 5 == 0) {
-                    System.out.println("Buzz \t");
-
-                } else if (playerNumber % 3 == 0 && playerNumber % 5 == 0) {
+                 if (playerNumber % 3 == 0 && playerNumber % 5 == 0) {
 
                     System.out.println("FizzBuzz \t");
+
+                }else if (playerNumber % 5 == 0) {
+                    System.out.println("Buzz \t");
+
+                } else if (playerNumber % 3 == 0) {
+                    System.out.println("Fizz \t");
 
                 } else {
                     System.out.println(playerNumber);
